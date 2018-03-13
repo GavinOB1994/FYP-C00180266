@@ -1,4 +1,1 @@
-﻿  stdafx.cpp
-  main.cpp
-  FYP-C00180266.vcxproj -> C:\Dev\Projects\FYP-C00180266\Debug\FYP-C00180266.exe
-  FYP-C00180266.vcxproj -> C:\Dev\Projects\FYP-C00180266\Debug\FYP-C00180266.pdb (Full PDB)
+﻿sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'

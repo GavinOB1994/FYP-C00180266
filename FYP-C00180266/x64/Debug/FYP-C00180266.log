@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\dev\projects\fyp-c00180266\fyp-c00180266\main.cpp(58): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\dev\projects\fyp-c00180266\fyp-c00180266\main.cpp(78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\projects\fyp-c00180266\fyp-c00180266\main.cpp(84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\projects\fyp-c00180266\fyp-c00180266\main.cpp(116): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\dev\projects\fyp-c00180266\fyp-c00180266\main.cpp(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  FYP-C00180266.vcxproj -> C:\Dev\Projects\FYP-C00180266\x64\Debug\FYP-C00180266.exe
+  FYP-C00180266.vcxproj -> C:\Dev\Projects\FYP-C00180266\x64\Debug\FYP-C00180266.pdb (Full PDB)
