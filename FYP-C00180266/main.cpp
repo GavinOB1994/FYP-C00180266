@@ -37,16 +37,20 @@ void newGen(std::vector<std::vector<Individual>>* list, int gen) //in here we as
 	std::vector<Individual> newGen;
 	(*list).push_back(newGen);
 
+	Individual One = (*list)[gen][memberOne];
+	Individual Two = (*list)[gen][memberTwo];
+	Individual Three = (*list)[gen][memberThree];
+
 	/*0*/ (*list)[gen + 1].push_back((*list)[gen][memberOne]);
 	/*1*/ (*list)[gen + 1].push_back((*list)[gen][memberTwo]);
 	/*2*/ (*list)[gen + 1].push_back((*list)[gen][memberThree]);
-	/*3*/
-	/*4*/
-	/*5*/
-	/*6*/
-	/*7*/
-	/*8*/
-	/*9*/
+	/*3*/ (*list)[gen + 1].push_back(Individual(One.velX, Two.velY));
+	/*4*/ (*list)[gen + 1].push_back(Individual(Two.velX, One.velY));
+	/*5*/ (*list)[gen + 1].push_back(Individual(One.velX, Three.velY));
+	/*6*/ (*list)[gen + 1].push_back(Individual(Three.velX, One.velY));
+	/*7*/ (*list)[gen + 1].push_back(Individual(Three.velX, Two.velY));
+	/*8*/ (*list)[gen + 1].push_back(Individual(Two.velX, Three.velY));
+	/*9*/ (*list)[gen + 1].push_back(Individual());
 
 
 	//heres the code for breeding the new generation

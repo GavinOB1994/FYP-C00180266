@@ -8,6 +8,11 @@ Individual::Individual()
 	velY = -(rand() % 60);
 }
 
+Individual::Individual(int x, int y)
+{
+	velX = x;
+	velY = y;
+}
 
 Individual::~Individual()
 {

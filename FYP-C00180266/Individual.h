@@ -12,6 +12,7 @@ public:
 	//
 
 	Individual();
+	Individual(int x, int y);
 	~Individual();
 
 	void setFinalDist(int x);
